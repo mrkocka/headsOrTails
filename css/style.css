@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+
+}
+
+.title{
+  width: 600px;
+  text-align: center;
+  
+}
+.title h1{
+  font-size: 1.5rem;
+}
+
+.title h3{
+  font-size: .7rem;
+}
+
+
+.coinArea {
+  /* background-color: gray;  */
+  width: 402px;
+  height: 400px;
+}
+
+.coinArea img {
+  width: 200px;
+  height: auto;
+}
+
+.coinStyle {
+  display: block;
+}
+
+#js-no {
+  display: none;
+}
+
+#js-yes {
+  display: none;
+}
+
+#js-loade {
+  display: none;
+}
