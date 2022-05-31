@@ -3,23 +3,24 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 24px;
-
+}
+img {
+  display: none;
+  width: 200px;
+  height: auto;
 }
 
-.title{
+.title {
   width: 600px;
   text-align: center;
-  
 }
-.title h1{
+.title h1 {
   font-size: 1.2rem;
- 
 }
 
-.title h3{
-  font-size: .7rem;
+.title h3 {
+  font-size: 0.7rem;
 }
-
 
 .coinArea {
   /* background-color: gray;  */
@@ -27,23 +28,14 @@
   height: 400px;
 }
 
-.coinArea img {
-  width: 200px;
-  height: auto;
-}
 
 .coinStyle {
   display: block;
 }
 
-#js-no {
-  display: none;
-}
 
-#js-yes {
-  display: none;
-}
+/*JavaScript css class*/
 
-#js-loade {
-  display: none;
+.visit {
+  display: block;
 }
