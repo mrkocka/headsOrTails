@@ -1,8 +1,8 @@
 let button = document.getElementById("button");
 
-button.addEventListener("click", loade);
+button.addEventListener("click", load);
 
-function loade() {
+function load() {
   document.getElementById("no").classList.remove("visit");
   document.getElementById("yes").classList.remove("visit");
   document.getElementById("load").classList.toggle("visit");
