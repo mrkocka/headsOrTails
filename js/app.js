@@ -18,11 +18,9 @@ function fate() {
 
   if (random === 0) {
     document.getElementById("no").classList.toggle("visit");
-    console.log("NO");
   }
 
   if (random === 1) {
     document.getElementById("yes").classList.toggle("visit");
-    console.log("YES");
   }
 }
